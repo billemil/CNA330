@@ -1,6 +1,7 @@
-# This script pulls from a job website and stores positions into a database. If there is a new posting it notifies the user.
+# This script pulls from a job website and stores positions into a database. This script was forked from RTCedu/CNA330
+# to my repository billemil/CNA330.  The script has been edited to be complete.
 # CNA 330
-# Zachary Rubin, zrubin@rtc.edu
+# Emily Billings, ejbillings@student.rtc.edu
 import mysql.connector
 import sys
 import json
