@@ -14,7 +14,7 @@ import time
 def connect_to_sql():
     conn = mysql.connector.connect(user='root', password='',
                                   host='127.0.0.1',
-                                  database='cna330')
+                                  database='cna330ejb')
     return conn
 
 # Create the table structure
